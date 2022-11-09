@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= PT+Sans:ital,wght@0,400;0,700;1,400;1,700 & display=swap');
+
+
+*:root {
+    --cor0: #45B0D6;
+    --cor1: #05E099;
+    --cor2: #1AC728;
+    --cor3: #8FE000;
+    --cor4: #D6C42D;
+
+    --fonte-padrão: arial, verdana;
+    --fonte-destaque: 'PT Sans', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 98.7vw;
+    height: 36vh;
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+}
+
+header > h1 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+header > p {
+    width: 850px;
+    margin: auto;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff36;
+    border-radius: 10px;
+    text-indent: 15px;
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+header > nav > ul > a {
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bolder;
+    color: white;
+}
+
+header > nav > ul > a:hover {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+    padding: 15px;
+}
+
+main > section > article > h2 {
+    text-align: center;
+    margin: 30px 0px;
+    font-family: var(--fonte-destaque);
+}
+
+main > section > article > p {
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+main > section > article > img {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    padding: 20px 0px;
+}
